@@ -1,12 +1,16 @@
 Algoritmo ascensor_temperatura
+
+//Definimos los tipos de variable
 	Definir numpiso como Entero;
 	Definir temp Como Real;
+
+//El usuario asigna valor a las variables, se realiza operaciÃ³n con condicional y se muestran resultados
 	Escribir " Cual es la temperatura actual?";
 	Leer temp;
 	Si temp >=40 Entonces
-		Mostrar " El ascensor está sobrecalentado";
+		Mostrar " El ascensor estÃ¡ sobrecalentado";
 	SiNo
-		Escribir "Digite el número de piso al 	que desea ir: ";
+		Escribir "Digite el nÃºmero de piso al que desea ir: ";
 		Leer numpiso;
 		Si numpiso>=1 y numpiso <=8 Entonces
 			Escribir "Llegaste al piso " numpiso;
@@ -14,5 +18,5 @@ Algoritmo ascensor_temperatura
 			Escribir "Ese piso no existe";
 		FinSi
 	FinSi
-	
 FinAlgoritmo
+
