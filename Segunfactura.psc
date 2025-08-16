@@ -4,15 +4,15 @@ Algoritmo Segunfactura
 	Definir cantidad, resultado , resultado_des, A,V, E Como Real;
 	
 	//Le mostramos al usuario el precio base de los productos y le pedimos que seleccione el tipo que quiere comprar
-	Mostrar "Las prendas de vestir tienen un precio base de $30.000, los alimentos de $20.000 y los artículos electrónicos de $40.000.";
+	Mostrar "Las prendas de vestir tienen un precio base de $30.000, los alimentos de $20.000 y los artÃ­culos electrÃ³nicos de $40.000.";
 	Escribir "Que tipo de producto desea comprar? Vestimenta(V), Alimentos(A) o Electronicos(E)";
 	Escribir "Ingrese solo la inicial de lo que desea comprar en mayusculas";
 	Leer tipo_producto;
-	Escribir "Cuántos desea comprar?';
+	Escribir "CuÃ¡ntos desea comprar?';
 	Leer cantidad;
-	
-	//Se utiliza el condicional Según para asignarle un caso especifico a cada opcion que se encuentra para finalmente mostrar resultados
-	Según tipo_producto Hacer 
+
+	//Se utiliza el condicional SegÃºn para asignarle un caso especifico a cada opcion que se encuentra para finalmente mostrar resultados
+	SegÃºn tipo_producto Hacer 
 Caso "A":
 	A <- 20000;
 	resultado <- (A*cantidad);
@@ -33,5 +33,6 @@ Caso "E":
 	Mostrar "El precio total es de ", resultado;
 De Otro Modo:
 	Escribir ' El producto no existe';
-FinSegún
+FinSegÃºn
+
 FinAlgoritmo
