@@ -1,12 +1,15 @@
 Algoritmo ascensorypiso
+//Definimos tipos de variable
 		Definir numpiso como Entero;
 		Definir peso Como Real;
-		Escribir " Cuanto es el peso acumulado (kg)";
+//Pedimos al usuario que digite los datos y los procesamos
+		Escribir " Cuanto es el peso(kg) acumulado de todas las personas que se encuentran en el ascensor?";
 		Leer peso;
+//Agregamos condicional Si y mostramos resultados segÃºn el caso
 		Si peso >=300 Entonces
-		Mostrar " El ascensor está sobrecargado";
+		Mostrar " El ascensor estÃ¡ sobrecargado";
 		SiNo
-				Escribir "Digite el número de piso al 	que desea ir: ";
+				Escribir "Digite el nÃºmero de piso al 	que desea ir: ";
 				Leer numpiso;
 				Si numpiso>=1 y numpiso <=8 Entonces
 					Escribir "Llegaste al piso " numpiso;
@@ -16,5 +19,6 @@ Algoritmo ascensorypiso
 			FinSi
 	
 FinAlgoritmo
+
 
 
